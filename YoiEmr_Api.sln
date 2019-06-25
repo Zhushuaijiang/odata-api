@@ -37,6 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{3BFD90
 	ProjectSection(SolutionItems) = preProject
 		D:\360MoveData\Users\pc\Desktop\Odata2019.4.8.docx = D:\360MoveData\Users\pc\Desktop\Odata2019.4.8.docx
 		D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\readme.txt = D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\readme.txt
+		C:\Users\pc\Pictures\结构.png = C:\Users\pc\Pictures\结构.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Application.Mapping", "Yoisoft.Application.Mapping\Yoisoft.Application.Mapping.csproj", "{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}"
@@ -121,58 +122,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {473EF609-682A-4282-98E9-1ADDB076D72F}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 13
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.6.201:8080/tfs/yoisoft
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = YoiEmr_Api\\YoiEmr_Api.csproj
-		SccProjectName1 = YoiEmr_Api
-		SccLocalPath1 = YoiEmr_Api
-		SccProjectUniqueName2 = Yoisoft.Application.Base\\Yoisoft.Application.Base.csproj
-		SccProjectTopLevelParentUniqueName2 = YoiEmr_Api.sln
-		SccProjectName2 = Yoisoft.Application.Base
-		SccLocalPath2 = Yoisoft.Application.Base
-		SccProjectUniqueName3 = Yoisoft.Application.HospitalOrganization\\Yoisoft.Application.HospitalOrganization.csproj
-		SccProjectTopLevelParentUniqueName3 = YoiEmr_Api.sln
-		SccProjectName3 = Yoisoft.Application.HospitalOrganization
-		SccLocalPath3 = Yoisoft.Application.HospitalOrganization
-		SccProjectUniqueName4 = Yoisoft.Application.Patient\\Yoisoft.Application.Patient.csproj
-		SccProjectTopLevelParentUniqueName4 = YoiEmr_Api.sln
-		SccProjectName4 = Yoisoft.Application.Patient
-		SccLocalPath4 = Yoisoft.Application.Patient
-		SccProjectUniqueName5 = Yoisoft.DataBase.EF.Oracle\\Yoisoft.DataBase.Oracle.csproj
-		SccProjectTopLevelParentUniqueName5 = YoiEmr_Api.sln
-		SccProjectName5 = Yoisoft.DataBase.EF.Oracle
-		SccLocalPath5 = Yoisoft.DataBase.EF.Oracle
-		SccProjectUniqueName6 = Yoisoft.DataBase.Repository\\Yoisoft.DataBase.Repository.csproj
-		SccProjectTopLevelParentUniqueName6 = YoiEmr_Api.sln
-		SccProjectName6 = Yoisoft.DataBase.Repository
-		SccLocalPath6 = Yoisoft.DataBase.Repository
-		SccProjectUniqueName7 = Yoisoft.DataBase\\Yoisoft.DataBase.csproj
-		SccProjectTopLevelParentUniqueName7 = YoiEmr_Api.sln
-		SccProjectName7 = Yoisoft.DataBase
-		SccLocalPath7 = Yoisoft.DataBase
-		SccProjectUniqueName8 = Yoisoft.Ioc\\Yoisoft.Ioc.csproj
-		SccProjectTopLevelParentUniqueName8 = YoiEmr_Api.sln
-		SccProjectName8 = Yoisoft.Ioc
-		SccLocalPath8 = Yoisoft.Ioc
-		SccProjectUniqueName9 = Yoisoft.Util\\Yoisoft.Util.csproj
-		SccProjectTopLevelParentUniqueName9 = YoiEmr_Api.sln
-		SccProjectName9 = Yoisoft.Util
-		SccLocalPath9 = Yoisoft.Util
-		SccProjectUniqueName10 = Yoisoft.Application.Mapping\\Yoisoft.Application.Mapping.csproj
-		SccProjectTopLevelParentUniqueName10 = YoiEmr_Api.sln
-		SccProjectName10 = Yoisoft.Application.Mapping
-		SccLocalPath10 = Yoisoft.Application.Mapping
-		SccProjectUniqueName11 = Yoisoft.Loger\\Yoisoft.Loger.csproj
-		SccProjectTopLevelParentUniqueName11 = YoiEmr_Api.sln
-		SccProjectName11 = Yoisoft.Loger
-		SccLocalPath11 = Yoisoft.Loger
-		SccProjectUniqueName12 = Yoisoft.Cache.Base\\Yoisoft.Cache.Base.csproj
-		SccProjectTopLevelParentUniqueName12 = YoiEmr_Api.sln
-		SccProjectName12 = Yoisoft.Cache.Base
-		SccLocalPath12 = Yoisoft.Cache.Base
 	EndGlobalSection
 EndGlobal
