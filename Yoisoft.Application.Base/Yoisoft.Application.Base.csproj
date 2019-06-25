@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F328470-9DD7-4813-96BE-12A36A724624}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yoisoft.Application.Base</RootNamespace>
+    <AssemblyName>Yoisoft.Application.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CODE\CODE_AREAEntity.cs" />
+    <Compile Include="CODE\CODE_AREAService.cs" />
+    <Compile Include="CODE\CODE_BASICEntity.cs" />
+    <Compile Include="CODE\CODE_BASICService.cs" />
+    <Compile Include="CODE\CODE_CAREEREntity.cs" />
+    <Compile Include="CODE\CODE_CAREERService.cs" />
+    <Compile Include="CODE\CODE_CASE_HISTORYSTYPEEntity.cs" />
+    <Compile Include="CODE\CODE_CASE_HISTORYSTYPEService.cs" />
+    <Compile Include="CODE\CODE_DOCUMENTEntity.cs" />
+    <Compile Include="CODE\CODE_DOCUMENTService.cs" />
+    <Compile Include="CODE\CODE_FAMILYRELATIONEntity.cs" />
+    <Compile Include="CODE\CODE_FAMILYRELATIONService.cs" />
+    <Compile Include="CODE\CODE_FEEEntity.cs" />
+    <Compile Include="CODE\CODE_FEEService.cs" />
+    <Compile Include="CODE\CODE_FREQUENCYEntity.cs" />
+    <Compile Include="CODE\CODE_FREQUENCYService.cs" />
+    <Compile Include="CODE\CODE_ITEMEntity.cs" />
+    <Compile Include="CODE\CODE_ITEMService.cs" />
+    <Compile Include="CODE\CODE_MARRIAGEEntity.cs" />
+    <Compile Include="CODE\CODE_MARRIAGEService.cs" />
+    <Compile Include="CODE\CODE_NAPARAMETEREntity.cs" />
+    <Compile Include="CODE\CODE_NAPARAMETERService.cs" />
+    <Compile Include="CODE\CODE_NATIONALITYEntity.cs" />
+    <Compile Include="CODE\CODE_NATIONALITYService.cs" />
+    <Compile Include="CODE\CODE_ORGANEntity.cs" />
+    <Compile Include="CODE\CODE_ORGANService.cs" />
+    <Compile Include="CODE\CODE_PATIENTSOURCEEntity.cs" />
+    <Compile Include="CODE\CODE_PATIENTSOURCEService.cs" />
+    <Compile Include="CODE\CODE_POSTEntity.cs" />
+    <Compile Include="CODE\CODE_POSTLEVELEntity.cs" />
+    <Compile Include="CODE\CODE_POSTLEVELService.cs" />
+    <Compile Include="CODE\CODE_POSTService.cs" />
+    <Compile Include="CODE\CODE_PROVANDCITYEntity.cs" />
+    <Compile Include="CODE\CODE_PROVANDCITYService.cs" />
+    <Compile Include="CODE\CODE_RACEEntity.cs" />
+    <Compile Include="CODE\CODE_RACEService.cs" />
+    <Compile Include="CODE\CODE_SCHOOLEntity.cs" />
+    <Compile Include="CODE\CODE_SCHOOLService.cs" />
+    <Compile Include="CODE\CODE_SEXEntity.cs" />
+    <Compile Include="CODE\CODE_SEXService.cs" />
+    <Compile Include="CODE\CODE_STATEEntity.cs" />
+    <Compile Include="CODE\CODE_STATEService.cs" />
+    <Compile Include="CODE\CODE_TITLEEntity.cs" />
+    <Compile Include="CODE\CODE_TITLEService.cs" />
+    <Compile Include="CODE\CODE_VISITDEPTEntity.cs" />
+    <Compile Include="CODE\CODE_VISITDEPTService.cs" />
+    <Compile Include="CODE\DXCODE_DXEntity.cs" />
+    <Compile Include="CODE\DXCODE_DXService.cs" />
+    <Compile Include="RecordSystem\SYS_REPORTCARDEntity.cs" />
+    <Compile Include="RecordSystem\SYS_REPORTCARDService.cs" />
+    <Compile Include="RecordSystem\SYS_RIGHTBAREntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordSystem\RecordReviewEntity.cs" />
+    <Compile Include="RecordSystem\RecordReviewService.cs" />
+    <Compile Include="RecordSystem\Record_typeEntity.cs" />
+    <Compile Include="RecordSystem\Record_typeService.cs" />
+    <Compile Include="RecordSystem\SYS_RIGHTBARService.cs" />
+    <Compile Include="RecordSystem\TemplatesEntity.cs" />
+    <Compile Include="RecordSystem\TemplatesService.cs" />
+    <Compile Include="RecordSystem\WorkstationEntity.cs" />
+    <Compile Include="RecordSystem\WorkstationService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Yoisoft.DataBase.Repository\Yoisoft.DataBase.Repository.csproj">
+      <Project>{7F5E2A6C-C859-494A-8577-75BF9603A80C}</Project>
+      <Name>Yoisoft.DataBase.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yoisoft.Util\Yoisoft.Util.csproj">
+      <Project>{CF8AE293-88AB-436C-9720-A8386BA5D7B7}</Project>
+      <Name>Yoisoft.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

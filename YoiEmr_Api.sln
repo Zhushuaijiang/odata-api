@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoiEmr_Api", "YoiEmr_Api\YoiEmr_Api.csproj", "{4ABBD7B1-891F-4867-A9C5-D9950A1D8E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 ApplicationModule 应用模块", "02 ApplicationModule 应用模块", "{74A2AE45-C844-4858-89D8-F1EDBFD344C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础模块", "01 Framework 基础模块", "{B40C6A24-54B8-4D44-B76C-728196136337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F77E3520-16CC-40BF-B8A3-866B4672B563}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\.nuget\NuGet.exe = D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\.nuget\NuGet.exe
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Util", "Yoisoft.Util\Yoisoft.Util.csproj", "{CF8AE293-88AB-436C-9720-A8386BA5D7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Ioc", "Yoisoft.Ioc\Yoisoft.Ioc.csproj", "{81C03609-AE0D-414C-829B-16B990487ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.DataBase.Repository", "Yoisoft.DataBase.Repository\Yoisoft.DataBase.Repository.csproj", "{7F5E2A6C-C859-494A-8577-75BF9603A80C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.DataBase", "Yoisoft.DataBase\Yoisoft.DataBase.csproj", "{C329F9E1-4327-4769-9D08-07E6FEC41005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.DataBase.Oracle", "Yoisoft.DataBase.EF.Oracle\Yoisoft.DataBase.Oracle.csproj", "{82069F3A-AB45-4F8B-B2BF-A36B14208F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Application.Patient", "Yoisoft.Application.Patient\Yoisoft.Application.Patient.csproj", "{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Application.Base", "Yoisoft.Application.Base\Yoisoft.Application.Base.csproj", "{0F328470-9DD7-4813-96BE-12A36A724624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Application.HospitalOrganization", "Yoisoft.Application.HospitalOrganization\Yoisoft.Application.HospitalOrganization.csproj", "{74A437A5-2020-4A98-9B22-796399CE8486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{3BFD90DA-3FD4-4CE5-89BA-4FAD56D96081}"
+	ProjectSection(SolutionItems) = preProject
+		D:\360MoveData\Users\pc\Desktop\Odata2019.4.8.docx = D:\360MoveData\Users\pc\Desktop\Odata2019.4.8.docx
+		D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\readme.txt = D:\360MoveData\Users\pc\Desktop\YoiEmr_Api\readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Application.Mapping", "Yoisoft.Application.Mapping\Yoisoft.Application.Mapping.csproj", "{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Loger", "Yoisoft.Loger\Yoisoft.Loger.csproj", "{1AAF4057-6382-454A-966E-9DE621B1B400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache 缓存模块", "Cache 缓存模块", "{E4C38D4C-8F08-40E7-B8F3-4D31D83A0A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yoisoft.Cache.Base", "Yoisoft.Cache.Base\Yoisoft.Cache.Base.csproj", "{5364095D-2824-4C23-A65D-DC1C0B01A022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ABBD7B1-891F-4867-A9C5-D9950A1D8E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABBD7B1-891F-4867-A9C5-D9950A1D8E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABBD7B1-891F-4867-A9C5-D9950A1D8E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABBD7B1-891F-4867-A9C5-D9950A1D8E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8AE293-88AB-436C-9720-A8386BA5D7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8AE293-88AB-436C-9720-A8386BA5D7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8AE293-88AB-436C-9720-A8386BA5D7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8AE293-88AB-436C-9720-A8386BA5D7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C03609-AE0D-414C-829B-16B990487ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C03609-AE0D-414C-829B-16B990487ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C03609-AE0D-414C-829B-16B990487ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C03609-AE0D-414C-829B-16B990487ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5E2A6C-C859-494A-8577-75BF9603A80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5E2A6C-C859-494A-8577-75BF9603A80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5E2A6C-C859-494A-8577-75BF9603A80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5E2A6C-C859-494A-8577-75BF9603A80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C329F9E1-4327-4769-9D08-07E6FEC41005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C329F9E1-4327-4769-9D08-07E6FEC41005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C329F9E1-4327-4769-9D08-07E6FEC41005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C329F9E1-4327-4769-9D08-07E6FEC41005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82069F3A-AB45-4F8B-B2BF-A36B14208F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82069F3A-AB45-4F8B-B2BF-A36B14208F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82069F3A-AB45-4F8B-B2BF-A36B14208F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82069F3A-AB45-4F8B-B2BF-A36B14208F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F328470-9DD7-4813-96BE-12A36A724624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F328470-9DD7-4813-96BE-12A36A724624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F328470-9DD7-4813-96BE-12A36A724624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F328470-9DD7-4813-96BE-12A36A724624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A437A5-2020-4A98-9B22-796399CE8486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A437A5-2020-4A98-9B22-796399CE8486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A437A5-2020-4A98-9B22-796399CE8486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A437A5-2020-4A98-9B22-796399CE8486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAF4057-6382-454A-966E-9DE621B1B400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAF4057-6382-454A-966E-9DE621B1B400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAF4057-6382-454A-966E-9DE621B1B400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAF4057-6382-454A-966E-9DE621B1B400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5364095D-2824-4C23-A65D-DC1C0B01A022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5364095D-2824-4C23-A65D-DC1C0B01A022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5364095D-2824-4C23-A65D-DC1C0B01A022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5364095D-2824-4C23-A65D-DC1C0B01A022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF8AE293-88AB-436C-9720-A8386BA5D7B7} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{81C03609-AE0D-414C-829B-16B990487ADD} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{7F5E2A6C-C859-494A-8577-75BF9603A80C} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{C329F9E1-4327-4769-9D08-07E6FEC41005} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{82069F3A-AB45-4F8B-B2BF-A36B14208F41} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{A5CA5A4F-EE31-4CF0-86FF-B9D0B5B7C014} = {74A2AE45-C844-4858-89D8-F1EDBFD344C8}
+		{0F328470-9DD7-4813-96BE-12A36A724624} = {74A2AE45-C844-4858-89D8-F1EDBFD344C8}
+		{74A437A5-2020-4A98-9B22-796399CE8486} = {74A2AE45-C844-4858-89D8-F1EDBFD344C8}
+		{5C2CE226-2854-4DBE-9D03-9DF622C52BD3} = {74A2AE45-C844-4858-89D8-F1EDBFD344C8}
+		{1AAF4057-6382-454A-966E-9DE621B1B400} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{E4C38D4C-8F08-40E7-B8F3-4D31D83A0A78} = {B40C6A24-54B8-4D44-B76C-728196136337}
+		{5364095D-2824-4C23-A65D-DC1C0B01A022} = {E4C38D4C-8F08-40E7-B8F3-4D31D83A0A78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {473EF609-682A-4282-98E9-1ADDB076D72F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.6.201:8080/tfs/yoisoft
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = YoiEmr_Api\\YoiEmr_Api.csproj
+		SccProjectName1 = YoiEmr_Api
+		SccLocalPath1 = YoiEmr_Api
+		SccProjectUniqueName2 = Yoisoft.Application.Base\\Yoisoft.Application.Base.csproj
+		SccProjectTopLevelParentUniqueName2 = YoiEmr_Api.sln
+		SccProjectName2 = Yoisoft.Application.Base
+		SccLocalPath2 = Yoisoft.Application.Base
+		SccProjectUniqueName3 = Yoisoft.Application.HospitalOrganization\\Yoisoft.Application.HospitalOrganization.csproj
+		SccProjectTopLevelParentUniqueName3 = YoiEmr_Api.sln
+		SccProjectName3 = Yoisoft.Application.HospitalOrganization
+		SccLocalPath3 = Yoisoft.Application.HospitalOrganization
+		SccProjectUniqueName4 = Yoisoft.Application.Patient\\Yoisoft.Application.Patient.csproj
+		SccProjectTopLevelParentUniqueName4 = YoiEmr_Api.sln
+		SccProjectName4 = Yoisoft.Application.Patient
+		SccLocalPath4 = Yoisoft.Application.Patient
+		SccProjectUniqueName5 = Yoisoft.DataBase.EF.Oracle\\Yoisoft.DataBase.Oracle.csproj
+		SccProjectTopLevelParentUniqueName5 = YoiEmr_Api.sln
+		SccProjectName5 = Yoisoft.DataBase.EF.Oracle
+		SccLocalPath5 = Yoisoft.DataBase.EF.Oracle
+		SccProjectUniqueName6 = Yoisoft.DataBase.Repository\\Yoisoft.DataBase.Repository.csproj
+		SccProjectTopLevelParentUniqueName6 = YoiEmr_Api.sln
+		SccProjectName6 = Yoisoft.DataBase.Repository
+		SccLocalPath6 = Yoisoft.DataBase.Repository
+		SccProjectUniqueName7 = Yoisoft.DataBase\\Yoisoft.DataBase.csproj
+		SccProjectTopLevelParentUniqueName7 = YoiEmr_Api.sln
+		SccProjectName7 = Yoisoft.DataBase
+		SccLocalPath7 = Yoisoft.DataBase
+		SccProjectUniqueName8 = Yoisoft.Ioc\\Yoisoft.Ioc.csproj
+		SccProjectTopLevelParentUniqueName8 = YoiEmr_Api.sln
+		SccProjectName8 = Yoisoft.Ioc
+		SccLocalPath8 = Yoisoft.Ioc
+		SccProjectUniqueName9 = Yoisoft.Util\\Yoisoft.Util.csproj
+		SccProjectTopLevelParentUniqueName9 = YoiEmr_Api.sln
+		SccProjectName9 = Yoisoft.Util
+		SccLocalPath9 = Yoisoft.Util
+		SccProjectUniqueName10 = Yoisoft.Application.Mapping\\Yoisoft.Application.Mapping.csproj
+		SccProjectTopLevelParentUniqueName10 = YoiEmr_Api.sln
+		SccProjectName10 = Yoisoft.Application.Mapping
+		SccLocalPath10 = Yoisoft.Application.Mapping
+		SccProjectUniqueName11 = Yoisoft.Loger\\Yoisoft.Loger.csproj
+		SccProjectTopLevelParentUniqueName11 = YoiEmr_Api.sln
+		SccProjectName11 = Yoisoft.Loger
+		SccLocalPath11 = Yoisoft.Loger
+		SccProjectUniqueName12 = Yoisoft.Cache.Base\\Yoisoft.Cache.Base.csproj
+		SccProjectTopLevelParentUniqueName12 = YoiEmr_Api.sln
+		SccProjectName12 = Yoisoft.Cache.Base
+		SccLocalPath12 = Yoisoft.Cache.Base
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C2CE226-2854-4DBE-9D03-9DF622C52BD3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yoisoft.Application.Mapping</RootNamespace>
+    <AssemblyName>Yoisoft.Application.Mapping</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\360MoveData\Users\pc\Desktop\Yoisoft.Application.Mapping\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\CODE\CODE_AREAMap.cs" />
+    <Compile Include="Base\CODE\CODE_BASICMap.cs" />
+    <Compile Include="Base\CODE\CODE_CAREEREMap.cs" />
+    <Compile Include="Base\CODE\CODE_CASE_HISTORYSTYPEMap.cs" />
+    <Compile Include="Base\CODE\CODE_DOCUMENTMap.cs" />
+    <Compile Include="Base\CODE\CODE_FAMILYRELATIONMap.cs" />
+    <Compile Include="Base\CODE\CODE_FEEMap.cs" />
+    <Compile Include="Base\CODE\CODE_FREQUENCYMap.cs" />
+    <Compile Include="Base\CODE\CODE_ITEMMap.cs" />
+    <Compile Include="Base\CODE\CODE_MARRIAGEMap.cs" />
+    <Compile Include="Base\CODE\CODE_NAPARAMETERMap.cs" />
+    <Compile Include="Base\CODE\CODE_NATIONALITYMap.cs" />
+    <Compile Include="Base\CODE\CODE_ORGANMap.cs" />
+    <Compile Include="Base\CODE\CODE_PATIENTSOURCEMap.cs" />
+    <Compile Include="Base\CODE\CODE_POSTLEVELMap.cs" />
+    <Compile Include="Base\CODE\CODE_POSTMap.cs" />
+    <Compile Include="Base\CODE\CODE_PROVANDCITYMap.cs" />
+    <Compile Include="Base\CODE\CODE_RACEMap.cs" />
+    <Compile Include="Base\CODE\CODE_SCHOOLMap.cs" />
+    <Compile Include="Base\CODE\CODE_SEXMap.cs" />
+    <Compile Include="Base\CODE\CODE_STATEMap.cs" />
+    <Compile Include="Base\CODE\CODE_TITLEMap.cs" />
+    <Compile Include="Base\CODE\CODE_VISITDEPTMap.cs" />
+    <Compile Include="Base\CODE\DXCODE_DXMap.cs" />
+    <Compile Include="Base\RecordReviewMap.cs" />
+    <Compile Include="Base\Record_typeMap.cs" />
+    <Compile Include="Base\WorkstationMap.cs" />
+    <Compile Include="Documents\Doctor_doc\AdmiSsionRecordMap.cs" />
+    <Compile Include="Documents\Doctor_doc\ConsultationMap.cs" />
+    <Compile Include="Documents\Doctor_doc\DeathRecordMap.cs" />
+    <Compile Include="Documents\Doctor_doc\DepartTransMap.cs" />
+    <Compile Include="Documents\Doctor_doc\DischargeRecordMap.cs" />
+    <Compile Include="Documents\Doctor_doc\DoctorsOperationMap.cs" />
+    <Compile Include="Documents\Doctor_doc\DOCTORS_24DEATH_RECORDMap.cs" />
+    <Compile Include="Documents\Doctor_doc\InformedConsentContentMap.cs" />
+    <Compile Include="Documents\Doctor_doc\InformedConsentTemplateMap.cs" />
+    <Compile Include="Documents\Doctor_doc\InOutHosRecordMap.cs" />
+    <Compile Include="Documents\Doctor_doc\PerioperativeMap.cs" />
+    <Compile Include="Documents\Doctor_doc\progress_noteMap.cs" />
+    <Compile Include="Documents\Nurse_doc\AdmissionAssessmentMap.cs" />
+    <Compile Include="Documents\Nurse_doc\CatheterEvaluationMap.cs" />
+    <Compile Include="Documents\Nurse_doc\CNRMap.cs" />
+    <Compile Include="Documents\Nurse_doc\DischargeAssessmentMap.cs" />
+    <Compile Include="Documents\Nurse_doc\NIHSSScoreMap.cs" />
+    <Compile Include="Documents\Nurse_doc\NURSE_CONSULTATIONMap.cs" />
+    <Compile Include="Documents\Nurse_doc\NURSE_RESCUERECORDMap.cs" />
+    <Compile Include="Documents\Nurse_doc\NURSE_THERMOMETERMap.cs" />
+    <Compile Include="Documents\Nurse_doc\NURSE_THERMOMETER_RECORDMap.cs" />
+    <Compile Include="Documents\Nurse_doc\PainScoreMap.cs" />
+    <Compile Include="HospitalOraganization\DepartmentAndWard\DepartmentAndWardMap.cs" />
+    <Compile Include="HospitalOraganization\User\UserMap.cs" />
+    <Compile Include="PatientDiagnostic\DiagnosisMap.cs" />
+    <Compile Include="Patient\MedicalRecordHomepageMap.cs" />
+    <Compile Include="Patient\PatientMap.cs" />
+    <Compile Include="Patient\PatientViewMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScoreReport\ADLScoreMap.cs" />
+    <Compile Include="ScoreReport\BradenScoreMap.cs" />
+    <Compile Include="ScoreReport\FallScoreMap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Yoisoft.Application.Mapping.dll.config" />
+    <None Include="bin\Debug\Yoisoft.Application.Patient.dll.config" />
+    <None Include="bin\Debug\Yoisoft.DataBase.dll.config" />
+    <None Include="bin\Debug\Yoisoft.DataBase.Repository.dll.config" />
+    <None Include="bin\Debug\Yoisoft.Util.dll.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Dapper.dll" />
+    <Content Include="bin\Debug\EcmaScript.NET.dll" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\Debug\LumiSoft.Net.dll" />
+    <Content Include="bin\Debug\Microsoft.AspNet.OData.dll" />
+    <Content Include="bin\Debug\Microsoft.AspNet.SignalR.Client.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.Configuration.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\NPOI.dll" />
+    <Content Include="bin\Debug\NPOI.OOXML.dll" />
+    <Content Include="bin\Debug\NPOI.OpenXml4Net.dll" />
+    <Content Include="bin\Debug\NPOI.OpenXmlFormats.dll" />
+    <Content Include="bin\Debug\Yahoo.Yui.Compressor.dll" />
+    <Content Include="bin\Debug\Yoisoft.Application.Base.dll" />
+    <Content Include="bin\Debug\Yoisoft.Application.Base.pdb" />
+    <Content Include="bin\Debug\Yoisoft.Application.HospitalOrganization.dll" />
+    <Content Include="bin\Debug\Yoisoft.Application.HospitalOrganization.pdb" />
+    <Content Include="bin\Debug\Yoisoft.Application.Mapping.dll" />
+    <Content Include="bin\Debug\Yoisoft.Application.Mapping.pdb" />
+    <Content Include="bin\Debug\Yoisoft.Application.Patient.dll" />
+    <Content Include="bin\Debug\Yoisoft.Application.Patient.pdb" />
+    <Content Include="bin\Debug\Yoisoft.DataBase.dll" />
+    <Content Include="bin\Debug\Yoisoft.DataBase.pdb" />
+    <Content Include="bin\Debug\Yoisoft.DataBase.Repository.dll" />
+    <Content Include="bin\Debug\Yoisoft.DataBase.Repository.pdb" />
+    <Content Include="bin\Debug\Yoisoft.Ioc.dll" />
+    <Content Include="bin\Debug\Yoisoft.Ioc.pdb" />
+    <Content Include="bin\Debug\Yoisoft.Util.dll" />
+    <Content Include="bin\Debug\Yoisoft.Util.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yoisoft.Application.Base\Yoisoft.Application.Base.csproj">
+      <Project>{0f328470-9dd7-4813-96be-12a36a724624}</Project>
+      <Name>Yoisoft.Application.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yoisoft.Application.HospitalOrganization\Yoisoft.Application.HospitalOrganization.csproj">
+      <Project>{74a437a5-2020-4a98-9b22-796399ce8486}</Project>
+      <Name>Yoisoft.Application.HospitalOrganization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yoisoft.Application.Patient\Yoisoft.Application.Patient.csproj">
+      <Project>{a5ca5a4f-ee31-4cf0-86ff-b9d0b5b7c014}</Project>
+      <Name>Yoisoft.Application.Patient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
