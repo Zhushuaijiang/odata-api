@@ -108,7 +108,9 @@
     <Compile Include="RecordSystem\WorkstationEntity.cs" />
     <Compile Include="RecordSystem\WorkstationService.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Yoisoft.DataBase.Repository\Yoisoft.DataBase.Repository.csproj">
       <Project>{7F5E2A6C-C859-494A-8577-75BF9603A80C}</Project>
